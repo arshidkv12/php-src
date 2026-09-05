@@ -1588,7 +1588,7 @@ PHP_FUNCTION(xml_parser_set_option)
 			zend_long value_long = zval_get_long(value);
 			if (value_long < 0 || value_long > INT_MAX) {
 				/* TODO Promote to ValueError in PHP 9.0 */
-				php_error_docref(NULL, E_WARNING, "Argument #3 ($value) must be between 0 and %d"
+				php_error_docref(NULL, E_DEPRECATED, "Argument #3 ($value) must be between 0 and %d"
 												  " for option XML_OPTION_SKIP_TAGSTART", INT_MAX);
 				RETURN_FALSE;
 			}

@@ -28,6 +28,6 @@ parse(3015809298423721);
 parse(20);
 ?>
 --EXPECTF--
-Warning: xml_parser_set_option(): Argument #3 ($value) must be between 0 and 2147483647 for option XML_OPTION_SKIP_TAGSTART in %s on line %d
+Deprecated: xml_parser_set_option(): Argument #3 ($value) must be between 0 and 2147483647 for option XML_OPTION_SKIP_TAGSTART in %s on line %d
 string(9) "NS1:TOTAL"
 string(0) ""

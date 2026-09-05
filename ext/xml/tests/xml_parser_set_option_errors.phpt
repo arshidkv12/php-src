@@ -69,7 +69,7 @@ Warning: xml_parser_set_option(): Argument #3 ($value) must be of type string|in
 Warning: xml_parser_set_option(): Argument #3 ($value) must be of type string|int|bool, stdClass given in %s on line %d
 Tag Start
 
-Warning: xml_parser_set_option(): Argument #3 ($value) must be between 0 and 2147483647 for option XML_OPTION_SKIP_TAGSTART in %s on line %d
+Deprecated: xml_parser_set_option(): Argument #3 ($value) must be between 0 and 2147483647 for option XML_OPTION_SKIP_TAGSTART in %s on line %d
 
 Warning: xml_parser_set_option(): Argument #3 ($value) must be of type string|int|bool, array given in %s on line %d
 
